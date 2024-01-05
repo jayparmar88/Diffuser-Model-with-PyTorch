@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""Building a Diffuser Model with PyTorch"""
+# Building a Diffuser Model with PyTorch
 
-"""Import libraries"""
+# Import libraries
 
 !pip install torchmultimodal-nightly
 
@@ -19,19 +19,19 @@ from torchmultimodal.diffusion_labs.schedules.discrete_gaussian_schedule import 
 from torchmultimodal.diffusion_labs.transforms.diffusion_transform import RandomDiffusionSteps
 from torchmultimodal.diffusion_labs.utils.common import DiffusionOutput
 
-"""Schedule"""
+# Schedule
 
 # Define Diffusion Schedule
 
 schedule = DiscreteGaussianSchedule(linear_beta_schedule(1000))
 
-"""Predictor"""
+# Predictor
 
 # Define Prediction Target
 
 predictor = NoisePredictor(schedule, lambda x: torch.clamp(x, -1, 1))
 
-"""U-Net"""
+# U-Net
 
 # Down scaling input blocks for unet
 class DownBlock(nn.Module):
@@ -105,7 +105,7 @@ class UNet(nn.Module):
         p = self.prediction(x)
         return DiffusionOutput(p, v)
 
-"""Diffusion Model"""
+# Diffusion Model
 
 unet = UNet(time_size=32, digit_size=32)
 unet = CFGuidance(unet, {"context": 32}, guidance=2.0)
@@ -118,7 +118,7 @@ model = DDPModule(unet, schedule, predictor, eval_steps)
 # Define conditional embeddings
 encoder = nn.Embedding(10, 32)
 
-"""Data"""
+# Data
 
 from torchvision.transforms import Compose, Resize, ToTensor, Lambda
 
@@ -134,7 +134,7 @@ from torch.utils.data import DataLoader
 train_dataset = FashionMNIST("fashion_mnist", train=True, download=True, transform=transform)
 train_dataloader = DataLoader(train_dataset, batch_size=192, shuffle=True, num_workers=2, pin_memory=True)
 
-"""Train"""
+# Train
 
 epochs = 10
 
@@ -167,7 +167,7 @@ for e in range(epochs):
 
 		pbar.set_description(f'{e+1}| Loss: {loss.item()}')
 
-"""Generate"""
+# Generate
 
 def fashion_encoder(name, num=1):
     fashion_dict = {"t-shirt": 0, "pants": 1, "sweater": 2, "dress": 3, "coat": 4,
