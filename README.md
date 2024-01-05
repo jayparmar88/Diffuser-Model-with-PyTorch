@@ -10,9 +10,6 @@ Here are some key areas where diffuser models shine:
 * **Image generation:** From producing photorealistic landscapes or portraits to conjuring up fantastical creatures and surreal scenes, diffuser models can create stunning and diverse images.
 
 
-
-
-
 * **Text-to-image:** Take a textual description, like "a cozy cabin nestled amidst snow-capped mountains," and a diffuser model can translate it into a captivating image that brings your words to life.
 
 
@@ -33,8 +30,12 @@ It's a fascinating process! Think of it like this:
 
 The beauty of diffuser models lies in their **flexibility and control.** You can tweak various parameters to influence the style, detail, and overall creative direction of the generated outputs. 
 
-## The code provided here demonstrates how to:
+**The code provided here demonstrates how to:**
 
 Define a basic diffuser model architecture using PyTorch.
 Train the model with sample data.
 Make predictions using the trained model.
+
+## Credits:
+
+https://www.datacamp.com/code-along/building-a-diffuser-model-from-scratch-with-pytorch
