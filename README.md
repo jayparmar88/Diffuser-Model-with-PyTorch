@@ -30,7 +30,7 @@ It's a fascinating process! Think of it like this:
 
 The beauty of diffuser models lies in their **flexibility and control.** You can tweak various parameters to influence the style, detail, and overall creative direction of the generated outputs. 
 
-**The code provided here demonstrates how to:**
+The code provided here demonstrates how to:
 
 Define a basic diffuser model architecture using PyTorch.
 Train the model with sample data.
@@ -38,4 +38,4 @@ Make predictions using the trained model.
 
 ## Credits:
 
-https://www.datacamp.com/code-along/building-a-diffuser-model-from-scratch-with-pytorch
+DataCamp: https://www.datacamp.com/code-along/building-a-diffuser-model-from-scratch-with-pytorch
