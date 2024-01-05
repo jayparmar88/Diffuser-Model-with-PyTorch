@@ -28,13 +28,13 @@ It's a fascinating process! Think of it like this:
 3. **Guide the process:** With each step, the model receives guidance, either from a reference image or text description, pushing the denoising process towards the desired outcome.
 4. **Unveil the result:** After numerous refinement steps, the noise transforms into a coherent and meaningful image, sound, or video, as per the guidance provided.
 
-The beauty of diffuser models lies in their **flexibility and control.** You can tweak various parameters to influence the style, detail, and overall creative direction of the generated outputs. 
+The beauty of diffuser models lies in their **flexibility and control.** We can tweak various parameters to influence the style, detail, and overall creative direction of the generated outputs. 
 
 The code provided here demonstrates how to:
 
-Define a basic diffuser model architecture using PyTorch.
-Train the model with sample data.
-Make predictions using the trained model.
+* Define a basic diffuser model architecture using PyTorch.
+* Train the model with sample data.
+* Make predictions using the trained model.
 
 ## Credits:
 
