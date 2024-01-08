@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 # Building a Diffuser Model with PyTorch
 # Import libraries
 
