@@ -37,24 +37,35 @@ The code provided in repository demonstrates how to :
 * Make predictions using the trained model.
 
 ## Project Structure and Components :
+
 1. **Diffusion Model (U-Net) :**
+   
 Implement the U-Net architecture for the diffusion model.
+
 Design downscaling and upscaling blocks for image processing.
 
 2. **Diffusion Process and Training :**
+   
 Define the diffusion process within the model.
+
 Set up training procedures, loss functions, and optimization strategies.
 
 3. **Data Preparation :**
+   
 Download and preprocess the Fashion MNIST dataset.
+
 Set up data loaders for efficient training.
 
 4. **Training the Diffusion Model :**
+
 Train the diffusion model on the Fashion MNIST dataset.
+
 Monitor and analyze the training process.
 
 5. **Image Generation :**
+
 Generate images using the trained diffusion model.
+
 Visualize and analyze the generated results.
 
 ## Requirements :
