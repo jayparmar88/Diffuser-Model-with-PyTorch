@@ -36,6 +36,17 @@ The code provided in repository demonstrates how to :
 * Train the model with sample data.
 * Make predictions using the trained model.
 
-## Credits :
+## Requirements :
+- Python 3.7+
+- [Transformers](https://github.com/huggingface/transformers)
+- [PIL](https://pillow.readthedocs.io/en/stable/)
+- [Requests](https://docs.python-requests.org/en/latest/)
+- [torch](https://pytorch.org/getting-started/locally/)
 
-DataCamp: https://www.datacamp.com/code-along/building-a-diffuser-model-from-scratch-with-pytorch
+## License :
+This project is licensed under the [MIT License](LICENSE).
+
+## Credit and Acknowledgment :
+- The project uses models and components from the [Hugging Face Transformers](https://github.com/huggingface/transformers) library.
+- The ViT models are based on the work of the original authors. Please refer to the respective model repositories for detailed information.
+- DataCamp: https://www.datacamp.com/code-along/building-a-diffuser-model-from-scratch-with-pytorch
