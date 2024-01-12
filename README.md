@@ -55,16 +55,13 @@ The code provided in repository demonstrates how to :
    Visualize and analyze the generated results.
 
 ## Requirements :
-- Python 3.7+
-- [Transformers](https://github.com/huggingface/transformers)
-- [PIL](https://pillow.readthedocs.io/en/stable/)
-- [Requests](https://docs.python-requests.org/en/latest/)
-- [torch](https://pytorch.org/getting-started/locally/)
+- Python 3.6+
+- [PyTorch](https://pytorch.org/getting-started/locally/)
+- [torchmultimodal-nightly](https://pypi.org/project/torchmultimodal-nightly/)
 
 ## License :
 This project is licensed under the [MIT License](LICENSE).
 
 ## Credit and Acknowledgment :
-- The project uses models and components from the [Hugging Face Transformers](https://github.com/huggingface/transformers) library.
-- The ViT models are based on the work of the original authors. Please refer to the respective model repositories for detailed information.
+- The project utilizes the `torchmultimodal-nightly` library for diffusion model implementation.(https://pypi.org/project/torchmultimodal-nightly/)
 - DataCamp: https://www.datacamp.com/code-along/building-a-diffuser-model-from-scratch-with-pytorch
