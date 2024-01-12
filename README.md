@@ -1,8 +1,8 @@
 # Building a Diffuser Model From Scratch with PyTorch :
 
-This repository provides an implementation of a diffuser model built from scratch using PyTorch, allowing users to understand and create a basic diffuser neural network model.
-
 ## Overview :
+Welcome to the "Diffusion Model with PyTorch" project! In this project, we'll walk through the process of building a Diffusion model using PyTorch. The Diffusion model, implemented with a U-Net architecture, is designed for tasks such as image generation and noise modeling. This project is particularly focused on creating a diffusion model for Fashion MNIST images.
+
 Diffuser models are a type of neural network used for a variety of generative tasks, particularly those involving **gradually adding detail and order to noise.** Imagine starting with a blank canvas filled with static and slowly, step-by-step, painting a vivid masterpiece. That's essentially what a diffuser model does!
 
 Here are some key areas where diffuser models shine :
