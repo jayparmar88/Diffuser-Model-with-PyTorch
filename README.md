@@ -19,7 +19,7 @@ Here are some key areas where diffuser models shine :
 * **Video generation :** Taking things a step further, diffuser models can even generate short video clips, adding a whole new dimension to their creative potential.
 
 
-**How do diffuser models work?**
+**Working of diffuser models :**
 
 It's a fascinating process! Think of it like this :
 
@@ -30,7 +30,7 @@ It's a fascinating process! Think of it like this :
 
 The beauty of diffuser models lies in their **flexibility and control.** We can tweak various parameters to influence the style, detail, and overall creative direction of the generated outputs. 
 
-The code provided here demonstrates how to :
+The code provided in repository demonstrates how to :
 
 * Define a basic diffuser model architecture using PyTorch.
 * Train the model with sample data.
