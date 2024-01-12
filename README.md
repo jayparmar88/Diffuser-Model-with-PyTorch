@@ -64,4 +64,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credit and Acknowledgment :
 - The project utilizes the [torchmultimodal-nightly](https://pypi.org/project/torchmultimodal-nightly/) library for diffusion model implementation.
-- DataCamp : https://www.datacamp.com/code-along/building-a-diffuser-model-from-scratch-with-pytorch
+- DataCamp - https://www.datacamp.com/code-along/building-a-diffuser-model-from-scratch-with-pytorch
