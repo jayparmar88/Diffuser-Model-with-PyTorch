@@ -1,7 +1,7 @@
 # Building a Diffuser Model From Scratch with PyTorch :
 
 ## Overview :
-Welcome to the `"Diffusion Model with PyTorch"` project! In this project, we'll walk through the process of building a Diffusion model using PyTorch. The Diffusion model, implemented with a U-Net architecture, is designed for tasks such as image generation and noise modeling. This project is particularly focused on creating a diffusion model for Fashion MNIST images.
+Welcome to the `"Diffusion Model with PyTorch"` project! In this project, we'll walk through the process of building a Diffusion model using PyTorch. The Diffusion model, implemented with a `U-Net architecture`, is designed for tasks such as image generation and noise modeling. This project is particularly focused on creating a diffusion model for Fashion MNIST images.
 
 Diffuser models are a type of neural network used for a variety of generative tasks, particularly those involving **gradually adding detail and order to noise.** Imagine starting with a blank canvas filled with static and slowly, step-by-step, painting a vivid masterpiece. That's essentially what a diffuser model does!
 
@@ -9,15 +9,11 @@ Here are some key areas where diffuser models shine :
 
 * **Image generation :** From producing photorealistic landscapes or portraits to conjuring up fantastical creatures and surreal scenes, diffuser models can create stunning and diverse images.
 
-
 * **Text-to-image :** Take a textual description, like "a cozy cabin nestled amidst snow-capped mountains," and a diffuser model can translate it into a captivating image that brings your words to life.
-
 
 * **Audio generation :** Similar to images, diffuser models can craft realistic or imaginative audio, like composing music, generating sound effects, or even mimicking human speech.
 
-
 * **Video generation :** Taking things a step further, diffuser models can even generate short video clips, adding a whole new dimension to their creative potential.
-
 
 **Working of diffuser models :**
 
@@ -39,29 +35,24 @@ The code provided in repository demonstrates how to :
 ## Project Structure and Components :
 
 1. **Diffusion Model (U-Net) :**
-   
-* Implement the U-Net architecture for the diffusion model.
-* Design downscaling and upscaling blocks for image processing.
+   Implement the U-Net architecture for the diffusion model.
+   Design downscaling and upscaling blocks for image processing.
 
 2. **Diffusion Process and Training :**
-   
-* Define the diffusion process within the model.
-* Set up training procedures, loss functions, and optimization strategies.
+   Define the diffusion process within the model.
+   Set up training procedures, loss functions, and optimization strategies.
 
 3. **Data Preparation :**
-   
-* Download and preprocess the Fashion MNIST dataset.
-* Set up data loaders for efficient training.
+   Download and preprocess the Fashion MNIST dataset.
+   Set up data loaders for efficient training.
 
 4. **Training the Diffusion Model :**
-
-* Train the diffusion model on the Fashion MNIST dataset.
-* Monitor and analyze the training process.
+   Train the diffusion model on the Fashion MNIST dataset.
+   Monitor and analyze the training process.
 
 5. **Image Generation :**
-
-* Generate images using the trained diffusion model.
-* Visualize and analyze the generated results.
+   Generate images using the trained diffusion model.
+   Visualize and analyze the generated results.
 
 ## Requirements :
 - Python 3.7+
