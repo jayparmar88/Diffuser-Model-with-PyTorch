@@ -55,7 +55,7 @@ The code provided in repository demonstrates how to :
    - Visualize and analyze the generated results.
 
 ## Requirements :
-- Python 3.6+
+- Python 3.9+
 - [PyTorch](https://pytorch.org/getting-started/locally/)
 - [torchmultimodal-nightly](https://pypi.org/project/torchmultimodal-nightly/)
 
